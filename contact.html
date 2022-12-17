@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="author" content="Toufique Belim">
+    <meta name="description" content="This page contains the details of timings of our Burger shop.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1> Contact to get a 🍔</h1>
+        <nav>
+            <ul>
+                <!-- Internal Reference -->
+                <a href="index.html" target="_blank">
+                    <li>Home</li>
+                </a>
+                <!-- Internal Reference -->
+                <a href="storeHours.html" target="_blank">
+                    <li>Store Hours</li>
+                </a>
+                <a href="index.html" target="_blank">
+                    <li>Our Menu</li>
+                </a>
+                <a href="index.html" target="_blank">
+                    <li>About us</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <figure>
+            <img src="burger.png" alt="Image Not Visible, there is some problem" loading="eager" title="The Giant Burger" width="200" height="200">
+            <br><br>
+            
+            <figcaption>
+                The special <strong>Giant Burger.</strong>
+            </figcaption>
+        </figure>
+        <hr>
+
+        <h2>Our Contact Form:</h2>
+        <br>
+
+        <section>
+            <form action="https://httpbin.org/get" method="get">
+
+                <fieldset>
+                    <legend>
+                            Sends us a message
+                    </legend>
+                    
+                    <br>
+                    
+                    <p>
+                        <label for="firstname">Firstname:</label>
+                        <input type="text" name="firstname" id="firstname" required placeholder="Toufique">
+                    </p>
+                    
+                    <br>
+                    
+                    <p>
+                        <label for="lastname">Lastname:</label>
+                        <input type="text" name="lastname" id="lastname" required placeholder="Belim">
+                    </p>
+                    
+                    <br>
+                    
+                    <p>
+                        <label for="phone">Phone no.:</label>
+                        <input type="tel" name="phone" id="phone" required placeholder="+915555555555">
+                    </p>
+                    
+                    <br>
+                    
+                    <p>
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" name="quantity" id="quantity" required placeholder="2">
+                    </p>
+
+                    <br>
+                    
+                    <p>Veg. Burger / Non-Veg. Burger:</p>
+                    <p>
+                        <input type="radio" name="burger" id="veg">
+                        <label for="veg"> Veg Burger</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" name="burger" id="nonveg">
+                        <label for="nonveg">Non veg Burger</label>
+                    </p>
+
+                    <br>
+
+                    <p>
+                        <label for="message">Message: </label>
+                        <br><br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here."></textarea>
+                    </p>
+
+                    <br>
+
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section>
+            <h2>Our Location</h2>
+            <address>
+                545 Burger Temptation Lane, Suite E <br>
+                Mumbai City, Mob: +91 8762231123
+                <br><br>
+                Phone: <a href="tel:+918762231123">+91 8762231123</a>
+            </address>
+        </section>
+
+    </main>
+    
+    <footer>
+        <hr>
+        <p>Copyright &copy; Little Burger Shop.</p>
+    </footer>
+</body>
+</html>

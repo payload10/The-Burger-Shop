@@ -1,0 +1,139 @@
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Toufique Belim">
+    <meta name="description" content="This page contains the description of Little Burgers Index page.">
+    
+    <title>Little Burger</title>
+    <!-- Fav Icon ( will appear at top just beside the TITLE )-->
+    <link rel="icon" href="hamburger.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+    <header>
+        <h1> Welcome to Little Burger Shop 🍔</h1>
+        <nav>
+            <ul>
+                <!-- Internal Reference -->
+                <a href="#aboutLBS">
+                    <li>About LBS</li>
+                </a>
+                <!-- Internal Reference -->
+                <a href="#ourMenu">
+                    <li>Our Menu</li>
+                </a>
+                <a href="storeHours.html" target="_blank">
+                    <li>Store Hours</li>
+                </a>
+                <a href="contact.html" target="_blank">
+                    <li>Contact us</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <figure>
+            <img src="burger.png" alt="Image Not Visible, there is some problem" loading="eager" title="The Giant Burger" width="200" height="200">
+            <br><br>
+            
+            <figcaption>
+                The special <strong>Giant Burger.</strong>
+            </figcaption>
+        </figure>
+
+            <br>
+            <hr>
+
+            <section id="aboutLBS">
+                <h2>About <abbr title="Little Burger Shop">LBS</abbr></h2>
+
+                <p><abbr title="Little Burger Shop">LBS</abbr> was founded in 2022. Our shop was built from <strong>a love of burgers 🍔.</strong> We hope our shop adds a unique and interesting place to our little town!</p>
+
+                <h3>The Burger Story.</h3>
+                <details>
+                    <summary>
+                        When did first Burger appear in Mumbai ?
+                    </summary>
+                    <p>We do know that burgers in India existed before the first foreign burger came in the 1980s via QSR (Quick Service Restaurants) chain Wimpy, followed by McDonald's in the late '90s — which introduced India to the fast food burger — and the story continued from there. (Source: <cite><a href="https://www.google.com/search?client=firefox-b-e&q=When+did+first+Burger+appear+in+Mumbai+%3F>">Google Results</a></cite>)</p>
+                </details>
+            </section>
+
+            <br>
+
+            <section id="ourMenu">
+                <h2>Our Menu</h2>
+
+                <table border="2">
+                    <!-- Table caption -->
+                    <caption>Our Burgers</caption>
+
+                    <!-- Table Header -->
+                    <thead>
+                        <tr>
+                            <th>Burgers</th>
+                            <th scope="col"><abbr title="Quantity"> Qty.</abbr></th>
+                            <th scope="col">Price</th>
+                        </tr>
+                    </thead>
+
+                    <!-- Table Body -->
+                    <tbody>
+                        <!-- Row 1-->
+                        <tr>
+                            <th scope="row" rowspan="3">Veg.</th>
+                            <td>1</td>
+                            <td>$1.50</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>$2.50</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>$3.25</td>
+                        </tr>
+
+                        <!-- Row 2 -->
+                        <tr>
+                            <th scope="row" rowspan="3">Non Veg.</th>
+                            <td>1</td>
+                            <td>$2.00</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>$3.50</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>$4.50</td>
+                        </tr>
+                    </tbody>
+
+                    <!-- Table Footer -->
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">
+                                Chips &amp; Drinks.
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+
+            <br><br>
+        <a href="#">Back to Top.</a>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Copyright &copy; Little Burger Shop.</p>
+    </footer>
+</body>
+</html>
